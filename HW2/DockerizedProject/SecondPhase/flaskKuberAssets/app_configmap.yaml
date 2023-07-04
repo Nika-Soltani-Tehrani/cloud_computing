@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-configmap
+data:
+  api_key: 'ED1C1309-E938-40B1-AF35-262EB6BE6DB9'
+  coin_name: 'btc'
+  cache_timeout: '300'
+  port: '5000'
+
+
